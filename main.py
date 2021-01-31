@@ -3,7 +3,6 @@ from flask_mysqldb import MySQL
 import MySQLdb
 
 app = Flask(__name__)
-app.secret_key = "1234567890"
 
 app.config["MYSQL_HOST"] = 'localhost'
 app.config["MYSQL_USER"] = "root"
